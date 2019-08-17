@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OpePro">
+
+<EditText
+    android:id="@+id/txtCodi"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="15dp"
+    android:hint="codigo"
+    />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnEscan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Escanear"
+
+            android:layout_marginLeft="75dp"
+            />
+
+        <Button
+            android:id="@+id/btnConsul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginLeft="200dp"
+            android:text="Consultar" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Nombre"
+        android:layout_marginTop="8dp"
+        />
+    <EditText
+        android:id="@+id/txtDescripcion"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Descripcion"
+        android:layout_marginTop="8dp"
+        />
+    <EditText
+        android:id="@+id/txtPrecio"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Precio"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp"
+        />
+    <EditText
+        android:id="@+id/txtProveedor"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Proveedor"
+        android:layout_marginTop="8dp"
+        />
+    <EditText
+        android:id="@+id/txtStock"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Stock"
+        android:inputType="number"
+        android:layout_marginTop="8dp"
+        />
+    <EditText
+        android:id="@+id/txtMinimo"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Minimo"
+        android:layout_marginTop="8dp"
+        />
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$"
+        android:textSize="25dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="#000000"
+        android:layout_marginTop="55dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Venta del dia"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginTop="110dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$"
+        android:textSize="25dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="#000000"
+        android:layout_marginTop="180dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Surtido Adquisición"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginTop="230dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$"
+        android:textSize="25dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="#000000"
+        android:layout_marginTop="295dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status Final"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginTop="340dp"
+        android:layout_centerHorizontal="true"/>
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Bienvenido"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="25dp"-->
+        <!--android:textSize="28dp"/>-->
+
+
+   <!--<Button-->
+       <!--android:layout_width="350dp"-->
+       <!--android:layout_height="wrap_content"-->
+       <!--android:layout_centerHorizontal="true"-->
+       <!--android:text="Alta de productos"-->
+       <!--android:layout_marginTop="100dp"/>-->
+    <!--<Button-->
+        <!--android:layout_width="350dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:text="Baja de productos"-->
+        <!--android:layout_marginTop="150dp"/>-->
+    <!--<Button-->
+        <!--android:layout_width="350dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:text="Modificacion de productos"-->
+        <!--android:layout_marginTop="200dp"/>-->
+    <!--<Button-->
+        <!--android:layout_width="350dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:text="Proovedores"-->
+        <!--android:layout_marginTop="250dp"/>-->
+
+</RelativeLayout>
